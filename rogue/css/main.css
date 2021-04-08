@@ -1,0 +1,125 @@
+/*****BASE STYLES*****/
+body {
+    font-family:'Montserrat', sans-serif;
+    color: #000000;
+    margin: 25px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width:600px;
+    float: left;
+}
+
+.third-width{
+    width:400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    color: #77a466;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+header span {
+    color: #000000;
+}
+
+nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+header nav a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/*****MAIN*****/
+
+main img {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+main h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform:uppercase;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*****SECTION*****/
+
+section .third-width {
+    border-top: 1px solid #eeeeee;
+}
+
+section h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 20px 30px 0 30px;
+}
+
+section p {
+    font-size: 16px;
+    padding: 10px 30px 20px 30px;
+}
+
+section #todays-specials {
+    color: #77a466;
+    line-height: 18px;
+}
+
+section #reviews {
+    line-height: 21px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+section #address {
+    line-height: 24px;
+}
+/*****FOOTER*****/
+footer .full-width{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid #f0eef0;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+    text-transform: lowercase;
+}

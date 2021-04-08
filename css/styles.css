@@ -1,0 +1,148 @@
+/* CSS DOCUMENT */
+
+html, body{
+    margin:0px;
+  }
+
+/* BASE STYLES */
+body {
+    font-family: 'Roboto', serif;
+    color: #095256;
+}
+
+/* GRID */
+.full-width {
+    width:100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width:50%;
+    float:left;
+    overflow: auto;
+}
+
+/* HEADER */
+header {
+    height: 600px;
+    background: url('../img/bgcover-img.png');
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 260px 280px 0 280px;
+    font-family: 'Roboto+Slab';
+    font-size: 50px;
+    color: #bdbf09;
+    text-align: center;
+}
+
+header h2 {
+    padding: 0 280px 80px 280px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* PORTFOLIO */
+
+#portfolio .full-width {
+    width:100%;
+    padding: 20px 0;
+}
+
+#portfolio h3 {
+    font-family: 'Roboto+Slab';
+    font-size: 36px;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#portfolio p {
+    font-size: 20px;
+    padding-right:30px;
+}
+
+#portfolio img {
+    padding-left:50px;
+    width: 85%;
+}
+/* ABOUT ME */
+
+#about {
+    background-color: #0c9faf;
+}
+
+#about h3 {
+    font-family: 'Roboto+Slab';
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#about p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 150px 50px 150px;
+}
+/* CONNECT */
+
+#connect {
+    background-color:#11747f;
+}
+
+#connect h3 {
+    font-family: 'Roboto+Slab';
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#connect h4 {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+#connect p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+#connect a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* FOOTER */
+
+#footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+
+    header {
+        height: 500px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        padding: 220px 150px 0 150px;
+    }
+
+    header h2 {
+        font-size: 20px;
+        padding: 0 160px 80px 160px;
+    }
+}
